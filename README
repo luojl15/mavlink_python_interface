@@ -1,0 +1,7 @@
+通过python -m mavgenerate 生成自定义的mavlink 消息库函数include.py
+将include.py置于MAVlink/pymavlink/dialects/v20
+mavlink_udp_test.py mavlink_udp_send.py 置于pymavlink目录下
+mavlink_udp_send.py可以通过UDP发送mavlink包，可以通过对应的c++client接受并解析，（同一xml文件生成的消息包）
+
+mavlink_udp_test.py可以接收c++server发送的mavlink message
+
