@@ -1,3 +1,4 @@
+mavlink相关知识见：https://mavlink.io/en/getting_started/installation.html
 通过python -m mavgenerate 生成自定义的mavlink 消息库函数include.py
 将include.py置于MAVlink/pymavlink/dialects/v20
 mavlink_udp_test.py mavlink_udp_send.py 置于pymavlink目录下
